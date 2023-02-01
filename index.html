@@ -317,6 +317,11 @@
                     </li>
                 </ul>
             </div>
+            <form action="">
+                <label for="user_email">Subscribe</label>
+                <input type="email" name="email" id="user_email" placeholder="E-mail" />
+                <button type="submit">submit</button>
+            </form>
         </div>
     </footer>
     <!---------------- model ---------------->
@@ -327,6 +332,22 @@
                 <use class="" href="./images/symbol.svg#icon-close-black"></use>
             </svg>
         </button>
+
+        <h2 class="modal-titel">Leave your contacts and we will call you back</h2>
+        
+        <label for="user_name">Name</label>
+        <input type="text" class="modal-input" name="user_name" id="user_name" />
+        
+        <label for="user_tel">Phone</label>
+        <input type="tel" class="modal-input" name="tel" id="user_tel" />
+        
+        <label for="user_email">Email</label>
+        <input type="email" class="modal-input" name="email" id="user_email" />
+
+        <label for="comment">Text input</label>
+        <textarea name="comment" class="modal-comment" id="comment" cols="30" rows="10"></textarea>
+
+        <button type="submit" class="modal-button">Submit</button>
     </div>
 </div>
 <script src="./js/modal.js"></script>
