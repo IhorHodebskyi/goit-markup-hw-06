@@ -527,9 +527,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 /* ----------------Form------------------ */
-.cont-form {
-    margin-left: auto;
-}
+
 
 .form-titel {
     font-weight: 500;
@@ -553,7 +551,6 @@ font-family: 'Raleway', sans-serif;
 
 .form-btn {
     padding: 8px 24px;
-    width: 165px;
     gap: 16px;
     background: var(--color-btn-hero);
     border-radius: 4px;
@@ -562,7 +559,7 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.04em;
     color: var(--background-light);
     transition-property: background-color;
@@ -574,10 +571,8 @@ font-family: 'Raleway', sans-serif;
     background-color: var(--color-brn-hover);
 }
 
-.cont-btn {
+.form-cont {
     display: flex;
-    flex-direction: row;
-    margin-left: auto;
 }
 
 /* ----------filters--------- */
@@ -800,14 +795,11 @@ border: 1px solid rgba(33, 33, 33, 0.2);
     background-color: rgb(220, 174, 174);
 }
 
-.modal-cont {
-    margin-top: 8px;
-}
 
 .modal-cont-input {
     position: relative;
     margin-top: 4px;
-
+    margin-bottom: 8px;
 }
 
 .modal-label {
@@ -816,7 +808,6 @@ font-size: 12px;
 line-height: calc(14/12);
 letter-spacing: 0.01em;
 color: #8E8F99;
-
 }
 
 .comment {

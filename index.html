@@ -317,20 +317,18 @@
                     </li>
                 </ul>
             </div>
-            <div class="cont-form">
-                <form class="form">
-                    <h2 class="form-titel">Subscribe</h2>
-                    <div class="cont-btn">
-                        <input type="email" name="email" class="form-input" id="email" placeholder="E-mail" />
-                            <button type="submit" class="form-btn">
-                                    <span>Subscribe</span>
-                                    <svg class="form-svg" width="24px" height="24px">
-                                        <use class="" href="./images/symbol.svg#icon-Frame-3"></use>
-                                    </svg>
-                            </button>
-                    </div>
-                </form>
-            </div>
+            <form class="form">
+                <h2 class="form-titel">Subscribe</h2>
+                <div class="form-cont">
+                    <input type="email" name="email" class="form-input" id="email" placeholder="E-mail" />
+                    <button type="submit" class="form-btn">
+                        <span>Subscribe</span>
+                        <svg class="form-svg" width="24px" height="24px">
+                            <use class="" href="./images/symbol.svg#icon-Frame-3"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
         </div>
     </footer>
     <!---------------- model ---------------->
@@ -345,7 +343,6 @@
         <h2 class="modal-titel">Leave your contacts and we will call you back</h2>
         
         <form>
-            <div class="modal-cont">
                 <label for="user_name" class="modal-label">Name</label>
                 <div class="modal-cont-input">
                     <input type="text" class="modal-input" name="user_name" id="user_name" minlength="3" title="Name" placeholder=" " required />
@@ -353,9 +350,7 @@
                         <use class="" href="./images/symbol.svg#icon-person-black-18dp-1"></use>
                     </svg>
                 </div>
-            </div>
             
-            <div class="modal-cont">
                 <label for="user_tel" class="modal-label">Phone</label>
                 <div class="modal-cont-input">
                     <input type="tel" class="modal-input" name="tel" id="user_tel" title="Phone" minlength="10" placeholder=" " required />
@@ -363,9 +358,7 @@
                         <use class="" href="./images/symbol.svg#icon-phone-black-18dp-2"></use>
                     </svg>
                 </div>
-            </div>
             
-            <div class="modal-cont">
                 <label for="user_email" class="modal-label">Email</label>
                 <div class="modal-cont-input">
                     <input type="email" title="E-mail" class="modal-input" name="user_email" id="user_email" placeholder=" " required />
@@ -373,12 +366,9 @@
                         <use class="" href="./images/symbol.svg#icon-email-black-18dp-3"></use>
                     </svg>
                 </div>
-            </div>
     
-            <div class="modal-cont">
                 <label for="comment" class="modal-label ">Comment</label>
                 <textarea name="comment" class="modal-comment comment" id="comment" cols="" rows="" placeholder="Text input"></textarea>
-            </div>
     
             <div >
                 <input class="modal-chec is-hidden" type="checkbox" id="treaty" name="treaty" value="" required>
